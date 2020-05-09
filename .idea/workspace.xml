@@ -2,25 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94c0d2b0-b460-4411-8187-6bf03e832e50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zhangds/proxy/cglib/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhangds/proxy/cglib/ProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhangds/proxy/cglib/TeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhangds/proxy/cglib/asm-commons.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhangds/proxy/cglib/asm-tree.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhangds/proxy/cglib/asm.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhangds/proxy/cglib/cglib-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhangds/proxy/dynamic/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhangds/proxy/dynamic/ITeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhangds/proxy/dynamic/ProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhangds/proxy/dynamic/TeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhangds/proxy/dynamic/dynamic.cld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhangds/proxy/staticproxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhangds/proxy/staticproxy/ITeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhangds/proxy/staticproxy/TeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhangds/proxy/staticproxy/TeacherDaoProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zhangds/proxy/staticproxy/staticproxy.cld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangds/strategy/CanFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangds/strategy/CanQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangds/strategy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangds/strategy/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangds/strategy/FlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangds/strategy/NoFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangds/strategy/NoQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangds/strategy/QuackBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangds/strategy/SuperDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangds/strategy/ToyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangds/strategy/duckstrategy.cld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zhangds/strategy/strategy.cld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -39,99 +34,110 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangds/proxy/staticproxy/TeacherDaoProxy.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangds/strategy/QuackBehavior.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            <state relative-caret-position="133">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangds/strategy/CanFly.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding>
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangds/proxy/staticproxy/TeacherDao.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangds/strategy/Duck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              <folding>
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangds/strategy/ToyDuck.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangds/strategy/SuperDuck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangds/proxy/staticproxy/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangds/strategy/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangds/proxy/staticproxy/ITeacherDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangds/proxy/dynamic/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangds/proxy/dynamic/TeacherDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangds/proxy/cglib/TeacherDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangds/proxy/cglib/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangds/proxy/cglib/ProxyFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zhangds/proxy/dynamic/ProxyFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="209">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="1430" column="27" selection-start-line="1430" selection-start-column="27" selection-end-line="1430" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangds/strategy/NoQuack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding>
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zhangds/strategy/CanQuack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding>
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,6 +148,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -170,6 +177,16 @@
         <option value="$PROJECT_DIR$/src/com/zhangds/proxy/staticproxy/TeacherDao.java" />
         <option value="$PROJECT_DIR$/src/com/zhangds/proxy/staticproxy/TeacherDaoProxy.java" />
         <option value="$PROJECT_DIR$/src/com/zhangds/proxy/staticproxy/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangds/strategy/FlyBehavior.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangds/strategy/CanFly.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangds/strategy/NoFly.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangds/strategy/QuackBehavior.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangds/strategy/NoQuack.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangds/strategy/CanQuack.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangds/strategy/Duck.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangds/strategy/SuperDuck.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangds/strategy/ToyDuck.java" />
+        <option value="$PROJECT_DIR$/src/com/zhangds/strategy/Client.java" />
       </list>
     </option>
   </component>
@@ -212,37 +229,6 @@
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zhangds" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangds" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangds" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="cglib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangds" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangds" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="staticproxy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
@@ -290,13 +276,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Client (2)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangds.proxy.cglib.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhangds.proxy.cglib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangds.strategy.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangds.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,11 +357,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.EnumSingleton" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +376,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588838406720</updated>
       <workItem from="1588838417777" duration="3785000" />
-      <workItem from="1588984510217" duration="5426000" />
+      <workItem from="1588984510217" duration="9570000" />
     </task>
     <task id="LOCAL-00001" summary="初始化设计模式">
       <created>1588839665900</created>
@@ -393,15 +392,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588842187670</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="代理设计模式">
+      <created>1588990503572</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588990503572</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9211000" />
+    <option name="totallyTimeSpent" value="13355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -413,7 +418,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.109836064" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16229509" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33934426" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -445,7 +450,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化设计模式" />
     <MESSAGE value="单例设计模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="单例设计模式" />
+    <MESSAGE value="代理设计模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="代理设计模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -572,14 +578,14 @@
     <entry file="file://$PROJECT_DIR$/src/com/zhangds/proxy/cglib/ProxyFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
-          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangds/proxy/cglib/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -593,7 +599,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/zhangds/proxy/dynamic/ProxyFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#182#183#0" expanded="true" />
@@ -629,8 +635,132 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zhangds/proxy/staticproxy/Client.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangds/strategy/NoFly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangds/strategy/FlyBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangds/strategy/NoQuack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangds/strategy/CanQuack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangds/strategy/CanFly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangds/strategy/Duck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangds/strategy/QuackBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangds/strategy/ToyDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangds/strategy/SuperDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/ComparableTimSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="1430" column="27" selection-start-line="1430" selection-start-column="27" selection-end-line="1430" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zhangds/strategy/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
