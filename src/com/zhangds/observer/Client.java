@@ -1,5 +1,7 @@
 package com.zhangds.observer;
 
+import java.util.Observable;
+
 /**
  * Create by zhangds
  * 2020-05-09 12:02
